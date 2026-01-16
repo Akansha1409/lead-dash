@@ -4,9 +4,9 @@ A full-stack CRM Dashboard featuring a **unique 3D Glassmorphism UI**, built wit
 
 This project goes beyond standard flat designs by implementing a "Deep Space" aesthetic with tactile 3D buttons, mesh gradients, and interactive floating elements, while maintaining high performance and responsiveness.
 
---
+---
 
-> **Demo Credentials:** > The app uses a simulated login. Simply click **"Login as Admin"** to access the dashboard.
+ **Demo Credentials:** > The app uses a simulated login. Simply click **"Login as Admin"** to access the dashboard.
 
 ---
 
