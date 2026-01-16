@@ -1,12 +1,20 @@
-# 🚀 Lead Management CRM
+# 🚀 Lead Management Dashboard (Mini CRM)
 
-A full-stack CRM Dashboard featuring a **unique 3D Glassmorphism UI**, built with the MERN stack (MongoDB, Express, React, Node.js). 
-
-This project goes beyond standard flat designs by implementing a "Deep Space" aesthetic with tactile 3D buttons, mesh gradients, and interactive floating elements, while maintaining high performance and responsiveness.
+A full-stack CRM application featuring a **unique 3D Glassmorphism UI**, built with the MERN stack. This dashboard allows users to manage leads with server-side searching, filtering, sorting, and pagination.
 
 ---
 
- **Demo Credentials:** > The app uses a simulated login. Simply click **"Login as Admin"** to access the dashboard.
+## 🌐 Deployed Links
+* **Frontend (Live App):** [PASTE_VERCEL_LINK_HERE]
+* **Backend (API):** [PASTE_RENDER_LINK_HERE]
+
+---
+
+## 🔑 Demo Credentials
+The application uses a simulated authentication system for the assignment.
+
+* **Login Method:** Click the **"Login as Admin"** button on the home screen.
+* **Username/Password:** Not required (Simulated Admin Access).
 
 ---
 
@@ -66,3 +74,23 @@ lead-dashboard/
 │   └── vite.config.js       # Vite Config
 │
 └── README.md                # Documentation
+```
+
+---
+
+## ⚙️ Environment Variables
+
+To run this project locally, you need to configure the following environment variables.
+
+**1. Backend (`backend/.env`)**
+Create a file named `.env` inside the `backend` folder:
+```env
+PORT=5000
+MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/crm-db
+```
+
+**2. Frontend (frontend/src/App.jsx)**
+```bash
+Local Development: const API_URL = 'http://localhost:5000/api';
+Production: const API_URL = 'https://your-backend-app.onrender.com/api';
+```
