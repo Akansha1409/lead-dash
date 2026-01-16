@@ -4,9 +4,8 @@ A full-stack CRM application featuring a **unique 3D Glassmorphism UI**, built w
 
 ---
 
-## 🌐 Deployed Links
-* **Frontend (Live App):** [PASTE_VERCEL_LINK_HERE]
-* **Backend (API):** [PASTE_RENDER_LINK_HERE]
+## 🌐 Deployed Link
+* **(Live App):** [https://lead-dash-alpha.vercel.app/]
 
 ---
 
