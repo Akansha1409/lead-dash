@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Search, User, BarChart2, CheckCircle, Users, X, Eye, ArrowRight, Layers } from 'lucide-react';
 
-const API_URL = 'http://localhost:5000/api'; // Change to deployed URL
+const API_URL = 'https://lead-dash-0ajr.onrender.com/api'; // Change to deployed URL
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
