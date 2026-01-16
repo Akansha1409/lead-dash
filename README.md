@@ -94,3 +94,39 @@ MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/crm-db
 Local Development: const API_URL = 'http://localhost:5000/api';
 Production: const API_URL = 'https://your-backend-app.onrender.com/api';
 ```
+
+---
+
+## ⚡ Setup & Installation
+
+### 1. Clone the Repository
+```bash
+git clone <YOUR_GITHUB_REPO_LINK>
+cd lead-dashboard
+```
+2. Backend Setup
+Navigate to the backend directory, install dependencies, and start the server.
+
+Bash
+cd backend
+npm install
+🌱 Seeding Method (Important): This project includes a script to populate the database with 350+ dummy leads. Run this once before starting the server.
+
+Bash
+node seed.js
+(Output should say: "Seeded 350 Leads")
+
+Start Server:
+
+Bash
+node server.js
+Server runs on http://localhost:5000
+
+3. Frontend Setup
+Open a new terminal window and navigate to the frontend directory.
+
+Bash
+cd ../frontend
+npm install
+npm run dev
+Frontend runs on http://localhost:5173
