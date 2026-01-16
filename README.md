@@ -1,4 +1,4 @@
-# 🚀 3D Lead Management CRM
+# 🚀 Lead Management CRM
 
 A full-stack CRM Dashboard featuring a **unique 3D Glassmorphism UI**, built with the MERN stack (MongoDB, Express, React, Node.js). 
 
@@ -18,6 +18,20 @@ This project goes beyond standard flat designs by implementing a "Deep Space" ae
 - **High Contrast Mode:** Optimized slate-dark theme for maximum readability.
 - **Animations:** Floating metric cards and smooth hover transitions.
 - **Responsive:** Fully optimized for Mobile, Tablet, and Desktop.
+
+ ---
+
+ ## 🛠 Tech Stack
+
+| Component    | Technology                                      |
+| :----------- | :---------------------------------------------- |
+| **Frontend** | React (Vite), Tailwind CSS (v3), Lucide React   |
+| **Backend** | Node.js, Express.js, REST API                   |
+| **Database** | MongoDB Atlas (Cloud)                           |
+| **Dev Tools**| Postman, Git, VS Code                           |
+| **Deployment**| Vercel (Client), Render (Server)               |
+
+---
 
 ### ⚙️ Functional Features
 - **Server-Side Pagination:** Efficiently handles large datasets.
